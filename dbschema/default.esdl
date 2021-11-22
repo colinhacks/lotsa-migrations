@@ -251,6 +251,5 @@ module auth {
     link blogs_subquery := (
       select default::BlogPost filter .author = User
     );
-  }
-  
+  }  
 }
